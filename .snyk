@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -24,3 +24,6 @@ patch:
         patched: '2017-10-01T22:07:17.946Z'
     - harp > connect > serve-static > send > debug:
         patched: '2017-10-01T22:07:17.946Z'
+  SNYK-JS-LODASH-567746:
+    - marky-markdown > sanitize-html > lodash:
+        patched: '2020-06-01T21:52:03.308Z'
